@@ -1,7 +1,5 @@
 def hello():
     # Implement your solution in between the two comment blocks
-    name = input("What is your name: ")
-    print('Hello {}'.format(name))
     # end assignment
 
 ## if you want to test locally before you try to sync
