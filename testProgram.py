@@ -8,4 +8,4 @@ def test_payCalculator_prints_correct_result(capfd, monkeypatch):
 
     out, err = capfd.readouterr()
     print(out)
-    assert out == 'Howdy Chuck\n'
+    assert out == 'Hello Chuck\n'
