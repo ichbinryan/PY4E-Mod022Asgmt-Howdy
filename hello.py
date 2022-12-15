@@ -8,5 +8,5 @@ def hello():
 
 
 #Ignore this for now. 
-if __name__ == __main__:
+if __name__ == "__main__":
     hello()
