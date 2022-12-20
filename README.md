@@ -1,9 +1,32 @@
-# Intro to taking user input: Saying Hello
+# Assignment:
+Write a program that uses input to prompt a user for their name and then welcomes them.
 
-The purpose of this assignment is to introduce you to stdin and the input functions.
+## Starter Code
+```python
+def hello():
+    # Implement your solution in between the two comment blocks
+    # This code ALMOST works...
+    name = input("Enter your name")
+    print("Hello")
 
-## Steps for completion
+    # end assignment
 
-1. Open `hello.py`
-1. Complete the assignment as described in https://canvas.instructure.com/courses/3650963/assignments/25666004?module_item_id=55313368
-1. Note, your final output should say "Hello {name you input}"
+
+#Ignore this for now. 
+if __name__ == __main__:
+    hello()
+```
+
+## Desired Output
+```Python
+Enter your name: Chuck
+Hello Chuck
+```
+
+## Testing code
+Test your code by opening a terminal, making sure it's pointing at the right folder
+Then type in:
+
+```
+pytest
+```
